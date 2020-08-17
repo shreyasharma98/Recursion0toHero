@@ -1,3 +1,13 @@
+/*
+Remove Duplicates
+Level EASY
+Given a string S, remove consecutive duplicates from it recursively.
+
+Sample Input 1 :
+aabccba
+Sample Output 1 :
+abcba
+*/
 #include<iostream>
 using namespace std;
 void removeConsecutiveDuplicates(char *input) {
